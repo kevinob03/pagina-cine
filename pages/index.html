@@ -10,16 +10,20 @@
 </head>
 
 <body>
-<!-- encabezado -->
-    <header>
-        <h1>CINE <span>Imperial</span></h1>
 
-        <p>Desde 1984</p>
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            <h1>CINE <span>Imperial</span></h1>
+            <p>Desde 1984</p>
+        </div>
 
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Cartelera</a></li>
+                <li><a href="#cartelera">Cartelera</a></li>
                 <li><a href="#">Próximos Estrenos</a></li>
                 <li><a href="#">Promociones</a></li>
                 <li><a href="#">El Cine</a></li>
@@ -27,14 +31,18 @@
             </ul>
         </nav>
 
-        <button id="tema">🌙 Modo Oscuro</button>
+        <button id="tema">
+            🌙 Modo Oscuro
+        </button>
 
     </header>
-    
-<!-- fin encabezado -->
 
-<!-- seccion principal -->
+    <!-- ================= MAIN ================= -->
+
     <main>
+
+        <!-- HERO -->
+
         <section class="hero">
 
             <h2>Revive la magia del cine de los 80</h2>
@@ -44,117 +52,108 @@
                 en una experiencia retro inolvidable.
             </p>
 
-            <button id="btnCartelera">Ver Cartelera</button>
+            <button id="btnCartelera">
+                Ver Cartelera
+            </button>
 
         </section>
 
+        <!-- CONTENIDO -->
 
-        <!-- seccion contenido -->
-       <section id="contenido">
-         <!-- cartelera -->
+        <section class="contenido">
 
+            <!-- CARTELERA -->
 
-        <section  id="cartelera" class="cartelera">
+            <section id="cartelera" class="cartelera">
 
-    <h2>En Cartelera</h2>
+                <h2>En Cartelera</h2>
 
-    <div class="peliculas">
+                <div class="peliculas">
 
-        <div class="pelicula">
-            <h3>Volver al Futuro</h3>
-            <p>4:00 PM - 8:30 PM</p>
-        </div>
+                    <div class="pelicula">
+                        <h3>Volver al Futuro</h3>
+                        <p>4:00 PM - 8:30 PM</p>
+                    </div>
 
-        <div class="pelicula">
-            <h3>Los Cazafantasmas</h3>
-            <p>3:30 PM - 7:00 PM</p>
-        </div>
+                    <div class="pelicula">
+                        <h3>Los Cazafantasmas</h3>
+                        <p>3:30 PM - 7:00 PM</p>
+                    </div>
 
-        <div class="pelicula">
-            <h3>Terminator</h3>
-            <p>5:00 PM - 9:15 PM</p>
-        </div>
+                    <div class="pelicula">
+                        <h3>Terminator</h3>
+                        <p>5:00 PM - 9:15 PM</p>
+                    </div>
 
-        <div class="pelicula">
-            <h3>The Goonies</h3>
-            <p>2:00 PM - 6:30 PM</p>
-        </div>
+                    <div class="pelicula">
+                        <h3>The Goonies</h3>
+                        <p>2:00 PM - 6:30 PM</p>
+                    </div>
 
-    </div>
+                </div>
 
-</section>
-        <!-- fin cartelera -->
+            </section>
 
+            <!-- HORARIOS -->
 
+            <section class="horarios">
 
+                <h2>Horarios</h2>
 
+                <div class="horario">
+                    <h3>Lunes a Viernes</h3>
+                    <p>2:00 PM - 10:30 PM</p>
+                </div>
 
+                <div class="horario">
+                    <h3>Sábados</h3>
+                    <p>12:00 PM - 11:00 PM</p>
+                </div>
 
-        <!-- horarios -->
-<section class="horarios">
+                <div class="horario">
+                    <h3>Domingos y Feriados</h3>
+                    <p>12:00 PM - 10:00 PM</p>
+                </div>
 
-    <h2>Horarios</h2>
+            </section>
 
-    <div class="horario">
-        <h3>Lunes a Viernes</h3>
-        <p>2:00 PM - 10:30 PM</p>
-    </div>
+            <!-- NOTICIAS -->
 
-    <div class="horario">
-        <h3>Sábados</h3>
-        <p>12:00 PM - 11:00 PM</p>
-    </div>
+            <section class="noticias">
 
-    <div class="horario">
-        <h3>Domingos y Feriados</h3>
-        <p>12:00 PM - 10:00 PM</p>
-    </div>
+                <h2>Noticias</h2>
 
-</section>
-<!-- fin horarios -->
+                <article class="noticia">
+                    <h3>Día del Espectador</h3>
+                    <p>Todos los martes disfruta de entradas con descuento.</p>
+                </article>
 
+                <article class="noticia">
+                    <h3>Sala Renovada</h3>
+                    <p>Ahora contamos con una nueva pantalla y mejor sonido.</p>
+                </article>
 
+                <article class="noticia">
+                    <h3>Club Imperial</h3>
+                    <p>Únete y recibe promociones exclusivas.</p>
+                </article>
 
+            </section>
 
-
-
-<!-- noticias -->
-
-<section class="noticias">
-
-    <h2>Noticias</h2>
-
-    <article class="noticia">
-        <h3>Día del Espectador</h3>
-        <p>Todos los martes disfruta de entradas con descuento.</p>
-    </article>
-
-    <article class="noticia">
-        <h3>Sala Renovada</h3>
-        <p>Ahora contamos con una nueva pantalla y mejor sonido.</p>
-    </article>
-
-    <article class="noticia">
-        <h3>Club Imperial</h3>
-        <p>Únete y recibe promociones exclusivas.</p>
-    </article>
-
-</section>
-<!-- fin noticias -->
-
-
-       </section>
-       <!-- fin seccion contenido -->
-
-
+        </section>
 
     </main>
-<!-- fin seccion principal -->
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
+        <p>© 2026 Cine Imperial | Todos los derechos reservados.</p>
 
     </footer>
 
     <script src="../src/js/cine.js"></script>
+
 </body>
 
 </html>
