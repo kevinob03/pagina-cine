@@ -210,3 +210,35 @@ nav a:hover {
 #tema:hover{
     background: #00506a;
 }
+
+/* ========================= */
+/* MODO OSCURO */
+/* ========================= */
+
+body.dark{
+    background-color: #111111;
+    color: white;
+}
+
+body.dark .pelicula,
+body.dark .horario,
+body.dark .noticia{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+body.dark nav a{
+    color: white;
+}
+
+body.dark #tema{
+    background:#d12c73;
+}
+
+body.dark .hero button{
+    background:#006d91;
+}
+
+body.dark .hero button:hover{
+    background:#004b64;
+}
