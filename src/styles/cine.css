@@ -168,3 +168,55 @@ nav a:hover{
     margin-bottom: 8px;
     color: #8b1e3f;
 }
+
+
+
+/* NOTICIAS */
+
+.noticias{
+    padding: 50px 60px;
+}
+
+.noticias h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.noticia{
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.noticia h3{
+    margin-bottom: 8px;
+    color: #8b1e3f;
+}
+
+
+/* CONTENIDO */
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 40px 60px;
+    align-items: flex-start;
+}
+
+.cartelera{
+    flex: 2;
+    padding: 0;
+}
+
+.horarios{
+    flex: 1;
+    padding: 0;
+}
+
+.noticias{
+    flex: 1;
+    padding: 0;
+}
