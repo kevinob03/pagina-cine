@@ -193,3 +193,20 @@ nav a:hover {
     margin-bottom: 8px;
     color: #8b1e3f;
 }
+
+
+/* BOTÓN TEMA */
+
+#tema{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #006d91;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#tema:hover{
+    background: #00506a;
+}
