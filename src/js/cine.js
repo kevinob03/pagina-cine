@@ -20,3 +20,15 @@ botonTema.addEventListener("click", () => {
     }
 
 });
+
+
+
+
+
+const botonCartelera = document.getElementById("btnCartelera");
+
+botonCartelera.addEventListener("click", () => {
+    document.getElementById("cartelera").scrollIntoView({
+        behavior: "smooth"
+    });
+});
